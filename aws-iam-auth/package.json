@@ -1,0 +1,22 @@
+{
+  "name": "aws-iam-authentication",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/credential-provider-node": "^3.613.0",
+    "@aws-sdk/protocol-http": "^3.374.0",
+    "@aws-sdk/signature-v4": "^3.374.0",
+    "aws-sdk": "^2.1658.0",
+    "aws4": "^1.13.0",
+    "aws4fetch": "^1.0.18",
+    "axios": "^1.7.2",
+    "https": "^1.0.0",
+    "uuid": "^10.0.0"
+  }
+}
